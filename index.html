@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>онлайн сайт-счетчик</title>
+  <style media="screen">
+    #flex {
+      display: flex;
+      justify-content: center;
+    }
+
+    #flex2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 1872px;
+      height: 964px;
+      background-color: lightblue;
+    }
+
+    #h1 {
+      text-align: center;
+    }
+
+    .button {
+      border-radius: 0px;
+      height: 50px;
+      width: 100px;
+      background-color: green;
+    }
+
+    .button:hover {
+      background-color: orange;
+    }
+
+    * {
+      margin: 0px
+    }
+  </style>
+</head>
+
+<body>
+  <div id="flex2">
+    <div>
+      <div>
+        <h1 id="h1">Это тест онлайн сайта. Просто счётчик кликов.</h1><br><br>
+      </div>
+      <div id="flex">
+        <div>
+          <!-- LikeBtn.com BEGIN -->
+          <span class="likebtn-wrapper" data-theme="custom" data-icon_d="sgn5-t" data-icon_l_c_v="#05e2fb" data-icon_d_c_v="#05e2fb" data-lang="ru" data-i18n_like="like" data-ef_voting="bounce" data-white_label="true" data-identifier="like"
+            data-show_like_label="false" data-popup_disabled="true" data-share_enabled="false" data-tooltip_enabled="false"></span>
+          <script>
+            (function(d, e, s) {
+              if (d.getElementById("likebtn_wjs")) return;
+              a = d.createElement(e);
+              m = d.getElementsByTagName(e)[0];
+              a.async = 1;
+              a.id = "likebtn_wjs";
+              a.src = s;
+              m.parentNode.insertBefore(a, m)
+            })(document, "script", "//w.likebtn.com/js/w/widget.js");
+          </script>
+          <!-- LikeBtn.com END -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
